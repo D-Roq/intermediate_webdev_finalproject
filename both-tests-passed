@@ -1,0 +1,9 @@
+npx jasmine
+Randomized with seed 65528
+Started
+..
+
+
+2 specs, 0 failures
+Finished in 0.007 seconds
+Randomized with seed 65528 (jasmine --random=true --seed=65528)

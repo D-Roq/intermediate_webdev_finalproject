@@ -1,6 +1,3 @@
-if (typeof module !== 'undefined')
-    module.exports = {calculateSimpleInterest, calculateTotalPayableAmount, calculate };
-
 const calculate = () => {
   let p = Number(document.getElementById("principal").value);
   let r = Number(document.getElementById("rate").value);
@@ -20,5 +17,8 @@ const calculateSimpleInterest = (principal, rate, time) => {
 }
 
 const calculateTotalPayableAmount = (principal, interestAmount) => {
-    return principal - interestAmount;
+    return principal + interestAmount;
 }
+
+if (typeof module !== 'undefined')
+    module.exports = {calculateSimpleInterest, calculateTotalPayableAmount, calculate };

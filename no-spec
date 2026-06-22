@@ -1,0 +1,9 @@
+npx jasmine
+Randomized with seed 49751
+Started
+
+
+No specs found
+Finished in 0.004 seconds
+Incomplete: No specs found
+Randomized with seed 49751 (jasmine --random=true --seed=49751)
